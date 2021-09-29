@@ -2,12 +2,12 @@
 
 one:
   behavior_notes: MyString
-  presence: false
+  attendence: false
   date: 2021-09-28
   student: one
 
 two:
   behavior_notes: MyString
-  presence: false
+  attendence: false
   date: 2021-09-28
   student: two

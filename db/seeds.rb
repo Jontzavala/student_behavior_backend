@@ -12,6 +12,6 @@ johnny_smith = Student.create(name:"Johnny Smith", seat_number:"1", course: home
 leo_james = Student.create(name:"Leo James", seat_number:"1", course: period_1);
 thomas_shelby = Student.create(name:"Thomas Shelby", seat_number:"2", course: period_1);
 
-Behavior.create(behavior_notes:"He was good today", presence: true, date: DateTime.strptime('09/28/2021', '%m/%d/%Y'), student: johnny_smith);
-Behavior.create(behavior_notes:"He was bad today", presence: true, date: DateTime.strptime('09/28/2021', '%m/%d/%Y'), student: leo_james);
-Behavior.create(behavior_notes:"N/A", presence: false, date: DateTime.strptime('09/28/2021', '%m/%d/%Y'), student: thomas_shelby);
+Behavior.create(behavior_notes:"He was good today", attendence: true, date: DateTime.strptime('09/28/2021', '%m/%d/%Y'), student: johnny_smith);
+Behavior.create(behavior_notes:"He was bad today", attendence: true, date: DateTime.strptime('09/28/2021', '%m/%d/%Y'), student: leo_james);
+Behavior.create(behavior_notes:"N/A", attendence: false, date: DateTime.strptime('09/28/2021', '%m/%d/%Y'), student: thomas_shelby);
