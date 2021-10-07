@@ -1,5 +1,5 @@
 class Student < ApplicationRecord
-  has_many :behaviors
+  has_many :behaviors, dependent: :destroy
   belongs_to :course
 
   def naming

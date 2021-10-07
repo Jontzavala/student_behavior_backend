@@ -30,7 +30,7 @@ class CoursesController < ApplicationController
     def destroy
         course = Course.find_by_id(params[:id])
         course.destroy
-        render json: {error: "Couldn't update"}
+        render json: {error: "#{course.name} has been deleted"}
     end
 
     private
