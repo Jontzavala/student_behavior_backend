@@ -23,7 +23,7 @@ Then cd into that repo ```cd student_behavior_backend```
 
 Then run ```code .```
 
-That should open up vscode then you'll want to run ```rails s`` to start the server
+That should open up vscode then you'll want to run ```rails s``` to start the server
 
 If you haven't already got clone the frontend and open that up or else you'll just be looking at nothing. Here is the link to the frontend:
 https://github.com/Jontzavala/student_behavior_forntend
