@@ -1,24 +1,36 @@
-# README
+# Student Behavior App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Student Behavior App is a application that allows teachers to add their courses and students and be able to filter through the courses.
 
-Things you may want to cover:
+In the future model I want to be able to add a behaviors feature that when you click on a students name or perhaps a behavior button that will allow the teacher to insert that students behavior habbits and also if they are present or not. The teacher will be able to filter by day to look at past behaviors and attendence.
 
-* Ruby version
+## Prerequisites
 
-* System dependencies
+To get started make sure you have the following things:
 
-* Configuration
+* You have the lastest version of ruby on rails installed.
+* You have a Mac/Windows/Linux machine.
 
-* Database creation
+## Installing Student Behavior App
 
-* Database initialization
+To install Student Behavior App follow these steps:
 
-* How to run the test suite
+Clone this repo as an SSH copy the link
 
-* Services (job queues, cache servers, search engines, etc.)
+Go to your terminal get into where you would like to store this repo in your terminal run the command ```git clone <link>```
 
-* Deployment instructions
+Then cd into that repo ```cd student_behavior_backend```
 
-* ...
+Then run ```code .```
+
+That should open up vscode then you'll want to run ```rails s`` to start the server
+
+If you haven't already got clone the frontend and open that up or else you'll just be looking at nothing. Here is the link to the frontend:
+https://github.com/Jontzavala/student_behavior_forntend
+
+## Using Student Behavior App
+
+First you have to make sure the backend is running before you can do anything.
+
+After you make sure the server is running on the backend you'll be able to create a student as well as a course at once. You'll assign the student a course and a seat number.
+They'll populate into the home page then you'll be able to click on a course and see which student are in that course.
