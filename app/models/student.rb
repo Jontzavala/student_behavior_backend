@@ -1,5 +1,6 @@
 class Student < ApplicationRecord
   belongs_to :course
+  has_one :behavior, dependent: :destroy
 
   def naming
     self.name.upcase
